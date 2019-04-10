@@ -49,6 +49,8 @@ h1{
 }
 
 #section2{
+    width: 500px;
+    margin: 10px;
     float: left;
 }
 
@@ -57,8 +59,7 @@ h1{
     float: left;
 }
 p{
-    width: 450px;
-    float: left
+    width: 500px;
 }
 
 #footer{
