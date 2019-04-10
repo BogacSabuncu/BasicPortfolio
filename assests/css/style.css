@@ -1,0 +1,70 @@
+.wrapper{
+    background-color: lightgrey; 
+}
+.NavBar{
+    margin: 0 auto;
+    background-color: grey;
+    overflow: auto;
+    height: 50px;
+    padding: 10px;
+}
+
+h1{
+    background-color:rgb(56, 189, 155);
+    color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    display: inline;
+    position: relative;
+    left: 100px;
+}
+#aboutId,
+#contactId,
+#portfolioId{
+    background-color: rgb(56, 189, 155);
+    color: antiquewhite;
+    font-size: 15pt;
+    font-weight: bold;
+    float: right;
+    padding: 10px;
+    margin-right: 10px;
+}
+#AboutMeDiv{
+    clear: both;
+    background-color: whitesmoke;
+    margin: 25px 25px 25px;
+    overflow: auto;
+}
+
+#section1{
+    padding: 10px;
+    margin: 10px;
+    font-size: 30pt;
+    font-weight: bolder;
+    color: burlywood;
+    text-align: center;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+}
+
+#section2{
+    float: left;
+}
+
+#myImage{
+    margin: 20px;
+    float: left;
+}
+p{
+    width: 450px;
+    float: left
+}
+
+#footer{
+    background-color: grey;
+    clear: both;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
