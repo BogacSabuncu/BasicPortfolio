@@ -1,45 +1,59 @@
+body{
+    margin: 0;
+}
+
 .wrapper{
-    background-color: lightgrey; 
+    background-image: url("../images/white-waves.png");
 }
 .NavBar{
     margin: 0 auto;
-    background-color: grey;
+    background-color: #fff;
     overflow: auto;
     height: 50px;
     padding: 10px;
+    border: 1px solid #ccc; 
 }
 
 h1{
-    background-color:rgb(56, 189, 155);
-    color: antiquewhite;
+    margin-top: 0;
+    height: 50px;
+    background-color:#4aaaa5;
+    color: #fff;
     padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    display: inline;
-    position: relative;
-    left: 100px;
-    top: 5px;
+    display: inline-block;
+    margin-left: 10%;
 }
 
 a{
     text-decoration: none;
+    color: inherit;
 }
 
+li{
+    line-height: 25px;
+    list-style-type: none;
+}
 #aboutId,
 #contactId,
 #portfolioId{
-    background-color: rgb(56, 189, 155);
-    color: antiquewhite;
+    color: #777;
     font-size: 15pt;
     font-weight: bold;
     float: right;
     padding: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
+    
 }
 .middleDiv{
     clear: both;
-    background-color: whitesmoke;
-    margin: 25px 25px 25px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 50px 50px 50px;
     overflow: auto;
+    font-family: Arial, 'Helvetica Neue' Helvetica, sans-serif;
+    color: #777;
 }
 
 .titleSec{
@@ -47,7 +61,7 @@ a{
     margin: 10px;
     font-size: 30pt;
     font-weight: bolder;
-    color: burlywood;
+    color: #4aaaa5;
     text-align: center;
     border-bottom: 5px;
     border-bottom-style: solid;
@@ -55,21 +69,19 @@ a{
 }
 
 #section2{
-    width: 500px;
+    width: 65%;
     margin: 10px;
     float: left;
+    text-align: justify;
 }
 
 #myImage{
     margin: 20px;
     float: left;
 }
-p{
-    width: 500px;
-}
 
 #footer{
-    background-color: grey;
+    background-color: #666;
     clear: both;
     padding: 20px;
     margin-bottom: 20px;
@@ -92,4 +104,15 @@ form{
     margin: 5px;
     width: 75%;
     height: 100px;
+}
+
+#submitInput{
+    background: #4aaaa5;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 100px;
+    margin: 5px;
+    padding: 10px;
 }
