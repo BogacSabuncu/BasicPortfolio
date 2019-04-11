@@ -17,7 +17,13 @@ h1{
     display: inline;
     position: relative;
     left: 100px;
+    top: 5px;
 }
+
+a{
+    text-decoration: none;
+}
+
 #aboutId,
 #contactId,
 #portfolioId{
@@ -29,14 +35,14 @@ h1{
     padding: 10px;
     margin-right: 10px;
 }
-#AboutMeDiv{
+.middleDiv{
     clear: both;
     background-color: whitesmoke;
     margin: 25px 25px 25px;
     overflow: auto;
 }
 
-#section1{
+.titleSec{
     padding: 10px;
     margin: 10px;
     font-size: 30pt;
@@ -69,3 +75,21 @@ p{
     margin-bottom: 20px;
 }
 
+form{
+    margin: 2%;
+    margin-left: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#nameInput,
+#emailInput{
+    margin: 5px;
+    width: 75%;
+    height: 20px;
+}
+
+#messageInput{
+    margin: 5px;
+    width: 75%;
+    height: 100px;
+}
